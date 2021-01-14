@@ -1,0 +1,275 @@
+<html>
+  <head>
+    <title>Someone's Github Page Site in pure HTML</title>
+    <meta />
+  </head>
+  <body>
+    <header>
+      Header:
+      <nav>
+        <div>This should be some nav element</div>
+        <div>This should be another element</div>
+        <div>But we can't use CSS in this lab so this looks funky</div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div>
+          <h1>This is a <b>website</b></h1>
+          <h2>
+            How much <i>more</i> reading do you need to read to understand that
+            this is a website?
+          </h2>
+          <p>
+            Like this <button>button</button> is useless, its boring, its just a
+            site
+          </p>
+        </div>
+        <br />
+        <div>
+          <h3>Really...</h3>
+        </div>
+        <br />
+      </section>
+      <hr />
+      <section>
+        <h2>Ok, i guess you can keep scrolling</h2>
+        <div>
+          <p>Here's a bunch of reasons why you should stop here</p>
+          <ol>
+            <li>This site is boring</li>
+            <li>
+              Looks worse than this
+              <a href="http://stoneztao.com/">basic site</a> by some guy named
+              Stone
+            </li>
+            <li>
+              Is not as fun as
+              <a href="http://stonet2000.github.io/Cut-Bread">cutting bread</a>
+            </li>
+          </ol>
+          <p>
+            Oh and it needs unordered lists so I continue rambling with
+            unordered list items
+          </p>
+          <ul>
+            <li>This site has no purpose</li>
+            <li>The creator couldn't even be bothered to add color</li>
+            <li>
+              Is not as fun as
+              <a href="http://stonet2000.github.io">cutting bread</a>
+            </li>
+          </ul>
+          <p>Here's a visual depicting how I feel about this site</p>
+          <figure>
+            <img src="im-bored-patrick.jpg" />
+            <figcaption>Bored...</figcaption>
+          </figure>
+          <p>
+            Here's a photo depicting the same thing depending on screen width
+          </p>
+          <figure>
+            <picture>
+              <source srcset="futurama.jpg" media="(min-width: 1100px)" />
+              <img src="kanye.png" alt="" />
+            </picture>
+          </figure>
+          <p>
+            Ok if you didn't click that cut bread link, now you will see it
+            below :)
+          </p>
+          <iframe
+            src="http://stonet2000.github.io/Cut-Bread"
+            width="1000"
+            height="600"
+          ></iframe>
+          <p>If you didn't like the above, then watch this</p>
+          <video controls>
+            <source src="rickroll.mp4" type="video/mp4" />
+          </video>
+          <p>
+            Ok if you got angry because of this trolling, listen to some
+            soothing music!
+          </p>
+          <audio src="rickroll.mp4" controls></audio>
+          <p>Ok ok no more rick rolling</p>
+          <canvas width="300" height="300">
+            An alternative text describing what your canvas displays.
+          </canvas>
+          <p>Ok how about this, create your Pokemon with this form!</p>
+          <form>
+            <fieldset>
+              <legend>Cool stuff</legend>
+              <input type="text" placeholder="Pokemon name" />
+              <br />
+              <label for="cool">Check this for coolness</label>
+              <input type="checkbox" id="cool" />
+              <br />
+              <label for="birthday">Birthday</label>
+              <input type="date" id="birthday" />
+              <br />
+              <label for="desc">Pokemon Description</label>
+              <br />
+              <textarea id="desc"></textarea>
+              <br />
+              <label for="poketype"
+                >Pokemon Type. Refer to <a href="#type-chart">this table</a> for
+                the basic type damage table</label
+              >
+              <select id="poketype">
+                <optgroup label="Basic">
+                  <option>Fire</option>
+                  <option>Water</option>
+                  <option>Grass</option>
+                </optgroup>
+                <optgroup label="Super cool ones">
+                  <option>Dragon</option>
+                  <option>Fairy</option>
+                  <option>Ice</option>
+                </optgroup>
+              </select>
+            </fieldset>
+            <fieldset>
+              <legend>Select your Pokemon Focus</legend>
+              <input type="radio" id="agg" name="focus" />
+              <label for="agg">Attack</label><br />
+              <input type="radio" id="passive" name="focus" />
+              <label for="passive">Defence</label><br />
+              <input type="radio" id="agility" name="focus" />
+              <label for="agility">Agility</label><br />
+            </fieldset>
+            <fieldset>
+              <legend>Select Pokemon Behavior</legend>
+              <input list="behaviors" name="behavior" />
+              <datalist id="behaviors">
+                <option>Tempered</option>
+                <option>Aggressive</option>
+                <option>Silent</option>
+                <option>Brave</option>
+              </datalist>
+            </fieldset>
+            <fieldset>
+              <legend>Select Pokemon Attributes</legend>
+              <label for="atk">Attack</label>
+              <input type="range" id="atk" />
+              <br />
+              <label for="def">Defence</label>
+              <input type="range" id="def" />
+              <br />
+              <label for="agi">Agility</label>
+              <input type="range" id="agi" />
+              <br />
+              <label for="int">Intelligence</label>
+              <input type="number" id="int" />
+            </fieldset>
+            <fieldset>
+              <legend>Upload Pokemon Picture</legend>
+              <input type="file" id="poke-photo" />
+              <br />
+            </fieldset>
+            <fieldset>
+              <legend>Security</legend>
+              <label for="pw"
+                >Password Protect your Pokemon (minimum 6 characters)</label
+              >
+              <input type="password" id="pw" minlength="6" required />
+              <br />
+              <label for="confirm-pw">Confirm password</label>
+              <input type="password" id="confirm-pw" />
+              <br />
+            </fieldset>
+            <br />
+            <label for="email"
+              >Enter email so we can email your new pokemon!</label
+            >
+            <input id="email" type="email" />
+            <br />
+            <label for="tel"
+              >Enter phone number so we can text you when we are done creating
+              your pokemon</label
+            >
+            <input id="tel" type="tel" />
+            <br />
+            <input type="submit" />
+          </form>
+          <table id="type-chart">
+            <caption>
+              Table 1.1
+            </caption>
+            <colgroup>
+              <col />
+              <col span="1" class="fire" />
+              <col span="1"" class="water"> <col span="1"" class="grass">
+            </colgroup>
+            <thead>
+              <tr>
+                <th colspan="3">Pokemon Type Damage Table</th>
+              </tr>
+              <tr>
+                <td>\</td>
+                <td>Fire</td>
+                <td>Water</td>
+                <td>Grass</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Fire</td>
+                <td>1x</td>
+                <td>0.5x</td>
+                <td>2x</td>
+              </tr>
+              <tr>
+                <td>Water</td>
+                <td>2x</td>
+                <td>1x</td>
+                <td>0.5x</td>
+              </tr>
+              <tr>
+                <td>Grass</td>
+                <td>0.5x</td>
+                <td>2x</td>
+                <td>1x</td>
+              </tr>
+            </tbody>
+          </table>
+          <details>
+            <summary>Explanation of Pokemon Type Table</summary>
+            Water puts out fire so does 2x damage. Fire burns grass so does 2x
+            damage. To make a nice "type" triangle, grass beats water and does
+            2x damage.
+          </details>
+          <br />
+          <p>You can't tell, but theres some super secret invisible html between here</p>
+          <template>
+            <button>SECRET BUTTON 1</button><button>SECRET BUTTON 2</button>
+          </template>
+          <p>and here :)</p>
+        </div>
+      </section>
+      <hr />
+      <aside>Aside content!</aside>
+    </main>
+    <hr />
+    <footer>
+      Footer! What did you expect? Maybe this funny
+      <a
+        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO"
+        >link</a
+      >
+      (definitely not a rick roll)
+      <hr />
+      <a href="https://github.com/StoneT2000/CSE110-Lab-2"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 496 512"
+          width="32px"
+          height="32px"
+        >
+          <path
+            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+          ></path></svg
+      ></a>
+    </footer>
+  </body>
+</html>
