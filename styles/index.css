@@ -6,10 +6,39 @@ body {
 
 }
 
+body, html {
+
+}
+
 .content-section {
+
+}
+
+.content-section p {
 
 }
 
 a[href="http://stoneztao.com/"] {
 
+}
+
+.content-section.funny {
+
+}
+
+.content-section a {
+
+}
+
+
+header > nav > div {
+
+}
+
+h1 + h2 {
+
+}
+
+legend ~ label {
+  
 }
