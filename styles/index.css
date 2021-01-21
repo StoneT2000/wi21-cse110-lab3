@@ -10,6 +10,17 @@ body {
 body, html {
   color: rgb(51, 56, 68);
 }
+
+html {
+  font-size: 14pt;
+}
+
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 12pt;
+  }
+}
+
 .image-content-wrapper {
   margin: auto;
   width: 100%;
