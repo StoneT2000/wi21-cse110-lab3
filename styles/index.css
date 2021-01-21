@@ -45,6 +45,8 @@ table th {
 }
 
 .content-section p {
+  position: relative;
+  left: 1rem;
   color: rgb(51, 56, 68);
   border-width: 0.25rem;
   border-color: rgba(252, 167, 49, 0.6);
@@ -69,7 +71,10 @@ a[href="http://stoneztao.com/"] {
 canvas {
   display: none;
 }
-
+header {
+  position: sticky;
+  top: 0;
+}
 header > nav {
   background-color: rgb(55, 153, 233);
 }
