@@ -3,19 +3,37 @@
 }
 
 body {
-
+  background-color: #FCFCFC;
 }
 
 body, html {
   color: rgb(51, 56, 68);
 }
 
+img {
+  border-width: 12px;
+  border-color: #fa3;
+  border-style: solid;
+}
+
 .content-section {
 
 }
 
+table {
+  border: 1mm solid black;
+}
+table th {
+  border-bottom: 1px solid black;
+}
+
 .content-section p {
   color: rgb(51, 56, 68);
+  border-width: 0.25rem;
+  border-color: rgba(252, 167, 49, 0.6);
+  border-radius: 0.5em;
+  border-style: solid;
+  height: 4ch;
 }
 
 .content-section a {
@@ -36,7 +54,9 @@ a[href="http://stoneztao.com/"] {
 header > nav > div {
 
 }
-
+h1, h2 {
+  width: 20cm;
+}
 h1 + h2 {
   color: purple;
 }
@@ -45,5 +65,6 @@ legend ~ label {
   color: hsl(122, 45%, 60%, .85);
 }
 legend {
+  width: 100mm;
   color: #ff0092;
 }
