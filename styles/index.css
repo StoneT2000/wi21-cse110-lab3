@@ -7,7 +7,7 @@ body {
 }
 
 body, html {
-
+  color: rgb(51, 56, 68);
 }
 
 .content-section {
@@ -15,20 +15,22 @@ body, html {
 }
 
 .content-section p {
-
-}
-
-a[href="http://stoneztao.com/"] {
-
-}
-
-.content-section.funny {
-
+  color: rgb(51, 56, 68);
 }
 
 .content-section a {
-
+  color: #fa3;
 }
+
+a[href="http://stoneztao.com/"] {
+  color: rgba(152, 140, 13, 0.85);
+}
+
+.content-section.funny h1 {
+  color: hsl(12, 100%, 50%);
+}
+
+
 
 
 header > nav > div {
@@ -36,9 +38,12 @@ header > nav > div {
 }
 
 h1 + h2 {
-
+  color: purple;
 }
 
 legend ~ label {
-  
+  color: hsl(122, 45%, 60%, .85);
+}
+legend {
+  color: #ff0092;
 }
