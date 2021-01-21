@@ -1,5 +1,7 @@
+/* The css file for lab 3 */
+
 * {
-  
+  color: black;
 }
 
 body {
@@ -128,7 +130,7 @@ h1 + h2 {
 }
 
 legend ~ label {
-  color: hsl(122, 45%, 60%, .85);
+  color: hsla(122, 45%, 60%, .85);
 }
 legend {
   width: 100mm;
