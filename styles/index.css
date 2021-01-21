@@ -16,10 +16,11 @@ body, html {
 }
 figure {
   margin: auto;
-  width: 300px;
+  width: 600px;
 }
 img {
   width: 100%;
+  max-width: 600px;
   margin: 20px 0 20px 0;
   border-width: 12px;
   border-color: #fa3;
@@ -35,6 +36,8 @@ img {
 }
 
 table {
+  width: 25%;
+  min-width: 300px;
   border: 1mm solid black;
 }
 table th {
