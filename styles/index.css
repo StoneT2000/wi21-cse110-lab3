@@ -60,6 +60,10 @@ table th {
   color: #fa3;
 }
 
+.content-section a:active {
+  color: purple;
+}
+
 a[href="http://stoneztao.com/"] {
   color: rgba(152, 140, 13, 0.85);
 }
