@@ -45,12 +45,16 @@ table th {
 }
 
 .content-section p {
+  position: relative;
+  left: 1rem;
   color: rgb(51, 56, 68);
   border-width: 0.25rem;
   border-color: rgba(252, 167, 49, 0.6);
   border-radius: 0.5em;
   border-style: solid;
   height: 4ch;
+  width: 90%;
+  max-width: 600px;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
 }
 
@@ -58,10 +62,19 @@ table th {
   color: #fa3;
 }
 
+.content-section a:active {
+  color: purple;
+}
+
 a[href="http://stoneztao.com/"] {
   color: rgba(152, 140, 13, 0.85);
 }
 
+.content-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+}
 .content-section.funny h1 {
   color: hsl(12, 100%, 50%);
 }
@@ -69,9 +82,18 @@ a[href="http://stoneztao.com/"] {
 canvas {
   display: none;
 }
-
-header > nav {
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: flex-start;
   background-color: rgb(55, 153, 233);
+  flex-wrap: wrap;
+  width: 100%;
+  align-content: flex-start;
+}
+header {
+  
 }
 header > nav > div {
   margin-left: 2rem;
