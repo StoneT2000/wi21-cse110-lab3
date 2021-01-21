@@ -9,11 +9,24 @@ body {
 body, html {
   color: rgb(51, 56, 68);
 }
-
+.image-content-wrapper {
+  margin: auto;
+  width: 100%;
+}
+figure {
+  margin: auto;
+  width: 300px;
+}
 img {
+  width: 100%;
+  margin: 20px 0 20px 0;
   border-width: 12px;
   border-color: #fa3;
   border-style: solid;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .content-section {
@@ -34,6 +47,7 @@ table th {
   border-radius: 0.5em;
   border-style: solid;
   height: 4ch;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
 }
 
 .content-section a {
@@ -52,10 +66,14 @@ a[href="http://stoneztao.com/"] {
 
 
 header > nav > div {
-
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 h1, h2 {
   width: 20cm;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
 }
 h1 + h2 {
   color: purple;
