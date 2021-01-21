@@ -63,12 +63,21 @@ a[href="http://stoneztao.com/"] {
   color: hsl(12, 100%, 50%);
 }
 
+canvas {
+  display: none;
+}
 
-
-
+header > nav {
+  background-color: rgb(55, 153, 233);
+}
 header > nav > div {
   margin-left: 2rem;
   margin-right: 2rem;
+  display: inline-block;
+  width: auto;
+  background-color: rgb(55, 153, 233);
+  color: white;
+  padding: 1rem;
 }
 h1, h2 {
   width: 20cm;
@@ -80,7 +89,6 @@ h1, h2 {
 }
 h1 + h2 {
   color: purple;
-  
 }
 
 legend ~ label {
