@@ -4,7 +4,7 @@ about: This is a template for making a GitHub issue to add new CSS features to t
   Github Pages
 title: Add New CSS - [brief description of css to be added]
 labels: CSS-Enhancement
-assignees: ''
+assignees: StoneT2000
 
 ---
 
